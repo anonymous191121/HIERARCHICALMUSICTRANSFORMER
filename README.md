@@ -18,6 +18,12 @@
 
 ## DEMO Samples
 
+
+https://www.notion.so/Demo-1d879d40fec3807189a3fe4ec609dcee?pvs=4
+
+
+(readme fixing...)
+
 ### From Scratch Generation
 
 Just start ONLY "BOS" Token for Chord Decocer
@@ -28,8 +34,11 @@ Witch means "BOS" Token make entire music
 1. 
 
 <audio controls>
-  <source src="./demo/scratch/1.wav" type="audio/mpeg">
+  <source src="demo/scratch/1.wav" type="audio/mpeg">
 </audio>
+
+<video controls src="demo/prompt/1.mp4"></video>
+
 
 2. 
 
