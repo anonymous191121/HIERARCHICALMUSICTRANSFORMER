@@ -1,0 +1,1891 @@
+Epoch [0], Step [0], LR: 0.000100, Loss: 1.7198 Acc: 0.095322
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([5, 5, 5, 4], device='cuda:1') | 0.128205
+BOOK 1 | tensor([ 4,  4, 14,  4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([5, 4, 8, 8], device='cuda:1') | 0.102041
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.075000
+BOOK 4 | tensor([ 6,  7,  7, 61], device='cuda:1') | 0.420290
+BOOK 5 | tensor([ 4,  4, 27,  4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([5, 4, 7, 4], device='cuda:1') | 0.037037
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 1, Train Loss: 1.10875520, Acc: 0.042541, LR: 0.000100000000
+Epoch [0], Step [0], Loss: 0.3779 Acc: 0.029762
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([16,  4,  4,  4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([5, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([ 4,  4,  4, 11], device='cuda:1') | 0.000000
+BOOK 4 | tensor([4, 7, 6, 4], device='cuda:1') | 0.238095
+BOOK 5 | tensor([ 4,  4, 16, 11], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 1, Val Loss: 1.05481456, Acc: 0.000190, LR: 0.000095000000
+Model saved: Epoch 1 with Val Loss: 1.054815
+Epoch [1], Step [0], LR: 0.000090, Loss: 1.5168 Acc: 0.070483
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 5, 4, 4], device='cuda:1') | 0.128205
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.061224
+BOOK 3 | tensor([ 4,  4,  4, 11], device='cuda:1') | 0.025000
+BOOK 4 | tensor([56,  6,  4,  7], device='cuda:1') | 0.275362
+BOOK 5 | tensor([ 4,  4, 15,  4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.074074
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 2, Train Loss: 0.97654650, Acc: 0.049766, LR: 0.000090250000
+Epoch [1], Step [0], Loss: 0.2403 Acc: 0.041667
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([56, 56,  7,  7], device='cuda:1') | 0.333333
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 2, Val Loss: 0.91641912, Acc: 0.000355, LR: 0.000085737500
+Model saved: Epoch 2 with Val Loss: 0.916419
+Epoch [2], Step [0], LR: 0.000081, Loss: 1.2743 Acc: 0.149179
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([5, 5, 5, 5], device='cuda:1') | 0.230769
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.050000
+BOOK 2 | tensor([7, 4, 4, 8], device='cuda:1') | 0.183673
+BOOK 3 | tensor([ 5,  4, 16, 14], device='cuda:1') | 0.200000
+BOOK 4 | tensor([7, 7, 7, 5], device='cuda:1') | 0.362319
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 5], device='cuda:1') | 0.111111
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.055556
+Epoch 3, Train Loss: 0.92797903, Acc: 0.061189, LR: 0.000081450625
+Epoch [2], Step [0], Loss: 0.2344 Acc: 0.059524
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([5, 8, 4, 8], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 7, 6], device='cuda:1') | 0.476190
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 3, Val Loss: 0.87895467, Acc: 0.000402, LR: 0.000077378094
+Model saved: Epoch 3 with Val Loss: 0.878955
+Epoch [3], Step [0], LR: 0.000074, Loss: 1.1704 Acc: 0.128839
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([5, 4, 4, 4], device='cuda:1') | 0.179487
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.100000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.163265
+BOOK 3 | tensor([ 4, 14, 17,  4], device='cuda:1') | 0.125000
+BOOK 4 | tensor([6, 7, 6, 4], device='cuda:1') | 0.333333
+BOOK 5 | tensor([ 4,  4, 14, 14], device='cuda:1') | 0.000000
+BOOK 6 | tensor([ 4, 13,  4,  5], device='cuda:1') | 0.074074
+BOOK 7 | tensor([ 4, 13, 13,  4], device='cuda:1') | 0.055556
+Epoch 4, Train Loss: 0.80575051, Acc: 0.091372, LR: 0.000073509189
+Epoch [3], Step [0], Loss: 0.2220 Acc: 0.065476
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 8], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([7, 6, 4, 4], device='cuda:1') | 0.523810
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([5, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 4, Val Loss: 0.82463244, Acc: 0.000570, LR: 0.000069833730
+Model saved: Epoch 4 with Val Loss: 0.824632
+Epoch [4], Step [0], LR: 0.000066, Loss: 1.1043 Acc: 0.184830
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 8, 5, 5], device='cuda:1') | 0.333333
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.050000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.183673
+BOOK 3 | tensor([16,  4,  4,  4], device='cuda:1') | 0.125000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.434783
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.185185
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.166667
+Epoch 5, Train Loss: 0.74131096, Acc: 0.116358, LR: 0.000066342043
+Epoch [4], Step [0], Loss: 0.1079 Acc: 0.083333
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 8], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([ 6,  6,  5, 56], device='cuda:1') | 0.666667
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([11,  4,  4,  4], device='cuda:1') | 0.000000
+Epoch 5, Val Loss: 0.76724420, Acc: 0.000558, LR: 0.000063024941
+Model saved: Epoch 5 with Val Loss: 0.767244
+Epoch [5], Step [0], LR: 0.000060, Loss: 0.9954 Acc: 0.246236
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 5, 4], device='cuda:1') | 0.256410
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.100000
+BOOK 2 | tensor([5, 5, 7, 4], device='cuda:1') | 0.428571
+BOOK 3 | tensor([ 4, 14,  4, 14], device='cuda:1') | 0.325000
+BOOK 4 | tensor([7, 6, 6, 6], device='cuda:1') | 0.304348
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.111111
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.222222
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.222222
+Epoch 6, Train Loss: 0.69701521, Acc: 0.135372, LR: 0.000059873694
+Epoch [5], Step [0], Loss: 0.0860 Acc: 0.083333
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([ 5,  6,  7, 56], device='cuda:1') | 0.666667
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 6, Val Loss: 0.74012929, Acc: 0.000551, LR: 0.000056880009
+Model saved: Epoch 6 with Val Loss: 0.740129
+Epoch [6], Step [0], LR: 0.000054, Loss: 0.9534 Acc: 0.236986
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 6, 4, 5], device='cuda:1') | 0.358974
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([7, 8, 7, 5], device='cuda:1') | 0.326531
+BOOK 3 | tensor([4, 4, 4, 5], device='cuda:1') | 0.150000
+BOOK 4 | tensor([4, 4, 7, 7], device='cuda:1') | 0.449275
+BOOK 5 | tensor([ 4,  4, 20,  4], device='cuda:1') | 0.111111
+BOOK 6 | tensor([4, 4, 4, 7], device='cuda:1') | 0.333333
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.166667
+Epoch 7, Train Loss: 0.65781941, Acc: 0.149736, LR: 0.000054036009
+Epoch [6], Step [0], Loss: 0.0783 Acc: 0.101190
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 5], device='cuda:1') | 0.809524
+BOOK 5 | tensor([ 4,  4, 20,  4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 7, Val Loss: 0.71085318, Acc: 0.000656, LR: 0.000051334208
+Model saved: Epoch 7 with Val Loss: 0.710853
+Epoch [7], Step [0], LR: 0.000049, Loss: 0.8847 Acc: 0.318791
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 6], device='cuda:1') | 0.487179
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.050000
+BOOK 2 | tensor([5, 5, 8, 7], device='cuda:1') | 0.489796
+BOOK 3 | tensor([14, 14,  5,  5], device='cuda:1') | 0.500000
+BOOK 4 | tensor([7, 5, 7, 7], device='cuda:1') | 0.449275
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.222222
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.185185
+BOOK 7 | tensor([13,  4,  4,  4], device='cuda:1') | 0.166667
+Epoch 8, Train Loss: 0.62902655, Acc: 0.161827, LR: 0.000048767498
+Epoch [7], Step [0], Loss: 0.0999 Acc: 0.083333
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([ 5,  6, 56,  6], device='cuda:1') | 0.666667
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 8, Val Loss: 0.72619602, Acc: 0.000796, LR: 0.000046329123
+Model saved: Epoch 8 with Val Loss: 0.726196
+Epoch [8], Step [0], LR: 0.000044, Loss: 0.7730 Acc: 0.328848
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.435897
+BOOK 1 | tensor([ 4,  4, 20,  4], device='cuda:1') | 0.200000
+BOOK 2 | tensor([5, 7, 5, 4], device='cuda:1') | 0.326531
+BOOK 3 | tensor([14, 14,  4, 14], device='cuda:1') | 0.550000
+BOOK 4 | tensor([5, 7, 7, 7], device='cuda:1') | 0.507246
+BOOK 5 | tensor([ 4,  4,  4, 19], device='cuda:1') | 0.111111
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.333333
+BOOK 7 | tensor([ 4,  4, 13,  4], device='cuda:1') | 0.166667
+Epoch 9, Train Loss: 0.60650118, Acc: 0.171847, LR: 0.000044012667
+Epoch [8], Step [0], Loss: 0.0955 Acc: 0.107143
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 8], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 7, 6, 6], device='cuda:1') | 0.857143
+BOOK 5 | tensor([ 4, 19,  4,  4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([18,  4,  4,  4], device='cuda:1') | 0.000000
+Epoch 9, Val Loss: 0.69612279, Acc: 0.000809, LR: 0.000041812034
+Model saved: Epoch 9 with Val Loss: 0.696123
+Epoch [9], Step [0], LR: 0.000040, Loss: 0.7492 Acc: 0.343108
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([6, 4, 4, 4], device='cuda:1') | 0.461538
+BOOK 1 | tensor([4, 4, 4, 5], device='cuda:1') | 0.100000
+BOOK 2 | tensor([7, 5, 7, 5], device='cuda:1') | 0.387755
+BOOK 3 | tensor([ 5, 14, 14, 14], device='cuda:1') | 0.550000
+BOOK 4 | tensor([6, 7, 7, 7], device='cuda:1') | 0.449275
+BOOK 5 | tensor([ 4, 14,  4,  4], device='cuda:1') | 0.166667
+BOOK 6 | tensor([4, 4, 4, 5], device='cuda:1') | 0.296296
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.333333
+Epoch 10, Train Loss: 0.58365461, Acc: 0.186719, LR: 0.000039721432
+Epoch [9], Step [0], Loss: 0.0935 Acc: 0.077381
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 8], device='cuda:1') | 0.000000
+BOOK 1 | tensor([ 4, 19,  4,  4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([5, 6, 5, 6], device='cuda:1') | 0.619048
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 10, Val Loss: 0.69011653, Acc: 0.000800, LR: 0.000037735360
+Model saved: Epoch 10 with Val Loss: 0.690117
+Epoch [10], Step [0], LR: 0.000036, Loss: 0.7072 Acc: 0.375061
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 5, 4, 4], device='cuda:1') | 0.461538
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.200000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.469388
+BOOK 3 | tensor([14, 14, 16, 14], device='cuda:1') | 0.500000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.536232
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.222222
+BOOK 6 | tensor([13,  4,  4,  4], device='cuda:1') | 0.333333
+BOOK 7 | tensor([ 4,  4,  4, 13], device='cuda:1') | 0.277778
+Epoch 11, Train Loss: 0.56472063, Acc: 0.193690, LR: 0.000035848592
+Epoch [10], Step [0], Loss: 0.0798 Acc: 0.083333
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([5, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.666667
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([ 4, 11,  4,  4], device='cuda:1') | 0.000000
+Epoch 11, Val Loss: 0.67476156, Acc: 0.000889, LR: 0.000034056163
+Model saved: Epoch 11 with Val Loss: 0.674762
+Epoch [11], Step [0], LR: 0.000032, Loss: 0.6613 Acc: 0.553226
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 6], device='cuda:1') | 0.743590
+BOOK 1 | tensor([ 4, 14,  4,  4], device='cuda:1') | 0.500000
+BOOK 2 | tensor([5, 7, 7, 7], device='cuda:1') | 0.551020
+BOOK 3 | tensor([ 5, 14, 14,  5], device='cuda:1') | 0.475000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.637681
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+BOOK 6 | tensor([ 4, 13,  5,  4], device='cuda:1') | 0.518519
+BOOK 7 | tensor([ 4,  4,  4, 11], device='cuda:1') | 0.388889
+Epoch 12, Train Loss: 0.54259649, Acc: 0.206133, LR: 0.000032353354
+Epoch [11], Step [0], Loss: 0.0761 Acc: 0.095238
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 8, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([ 6, 56,  7,  6], device='cuda:1') | 0.761905
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([ 4,  4, 11,  4], device='cuda:1') | 0.000000
+Epoch 12, Val Loss: 0.67578962, Acc: 0.000790, LR: 0.000030735687
+Epoch [12], Step [0], LR: 0.000029, Loss: 0.6183 Acc: 0.323300
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 6, 4, 5], device='cuda:1') | 0.461538
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([5, 5, 5, 7], device='cuda:1') | 0.489796
+BOOK 3 | tensor([14, 14, 14,  4], device='cuda:1') | 0.375000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.463768
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.222222
+BOOK 6 | tensor([ 5,  4,  4, 13], device='cuda:1') | 0.407407
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.166667
+Epoch 13, Train Loss: 0.52472417, Acc: 0.216136, LR: 0.000029198902
+Epoch [12], Step [0], Loss: 0.0735 Acc: 0.101190
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 8, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.809524
+BOOK 5 | tensor([ 4,  4,  4, 11], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 13, Val Loss: 0.67568909, Acc: 0.000770, LR: 0.000027738957
+Epoch [13], Step [0], LR: 0.000026, Loss: 0.5847 Acc: 0.537981
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([5, 4, 4, 6], device='cuda:1') | 0.589744
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.250000
+BOOK 2 | tensor([4, 4, 5, 8], device='cuda:1') | 0.551020
+BOOK 3 | tensor([14,  4, 14,  4], device='cuda:1') | 0.525000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.536232
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.555556
+BOOK 6 | tensor([ 7,  4,  4, 13], device='cuda:1') | 0.518519
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.777778
+Epoch 14, Train Loss: 0.50922488, Acc: 0.221796, LR: 0.000026352009
+Epoch [13], Step [0], Loss: 0.0705 Acc: 0.089286
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 4, 6], device='cuda:1') | 0.714286
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 14, Val Loss: 0.68344609, Acc: 0.000910, LR: 0.000025034409
+Model saved: Epoch 14 with Val Loss: 0.683446
+Epoch [14], Step [0], LR: 0.000024, Loss: 0.5585 Acc: 0.497782
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 6], device='cuda:1') | 0.589744
+BOOK 1 | tensor([ 4, 20,  4, 20], device='cuda:1') | 0.500000
+BOOK 2 | tensor([5, 4, 5, 7], device='cuda:1') | 0.632653
+BOOK 3 | tensor([16,  5, 14,  4], device='cuda:1') | 0.375000
+BOOK 4 | tensor([6, 6, 7, 7], device='cuda:1') | 0.681159
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.555556
+BOOK 6 | tensor([13,  4,  4,  5], device='cuda:1') | 0.370370
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.277778
+Epoch 15, Train Loss: 0.49289125, Acc: 0.232357, LR: 0.000023782689
+Epoch [14], Step [0], Loss: 0.0734 Acc: 0.089286
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([7, 7, 6, 6], device='cuda:1') | 0.714286
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 15, Val Loss: 0.68208715, Acc: 0.000829, LR: 0.000022593554
+Epoch [15], Step [0], LR: 0.000021, Loss: 0.5425 Acc: 0.570999
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.717949
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.450000
+BOOK 2 | tensor([7, 5, 7, 5], device='cuda:1') | 0.632653
+BOOK 3 | tensor([14, 14,  4, 14], device='cuda:1') | 0.550000
+BOOK 4 | tensor([7, 6, 7, 7], device='cuda:1') | 0.550725
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.500000
+BOOK 6 | tensor([13, 13,  4, 13], device='cuda:1') | 0.555556
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+Epoch 16, Train Loss: 0.47925763, Acc: 0.243349, LR: 0.000021463876
+Epoch [15], Step [0], Loss: 0.0865 Acc: 0.107143
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([8, 4, 8, 8], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.857143
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 16, Val Loss: 0.68435872, Acc: 0.000981, LR: 0.000020390683
+Model saved: Epoch 16 with Val Loss: 0.684359
+Epoch [16], Step [0], LR: 0.000019, Loss: 0.4905 Acc: 0.555995
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.641026
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.550000
+BOOK 2 | tensor([4, 4, 4, 5], device='cuda:1') | 0.591837
+BOOK 3 | tensor([ 4,  4, 14, 14], device='cuda:1') | 0.525000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.695652
+BOOK 5 | tensor([ 4,  4,  4, 20], device='cuda:1') | 0.444444
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.555556
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.444444
+Epoch 17, Train Loss: 0.46633308, Acc: 0.248600, LR: 0.000019371148
+Epoch [16], Step [0], Loss: 0.0906 Acc: 0.071429
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 8, 8, 8], device='cuda:1') | 0.000000
+BOOK 1 | tensor([20,  4,  4,  4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([4, 6, 6, 4], device='cuda:1') | 0.571429
+BOOK 5 | tensor([ 4,  4,  4, 11], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 17, Val Loss: 0.68111616, Acc: 0.000961, LR: 0.000018402591
+Epoch [17], Step [0], LR: 0.000017, Loss: 0.4906 Acc: 0.623129
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 5], device='cuda:1') | 0.717949
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.650000
+BOOK 2 | tensor([7, 7, 7, 5], device='cuda:1') | 0.551020
+BOOK 3 | tensor([ 5, 14, 14, 14], device='cuda:1') | 0.525000
+BOOK 4 | tensor([6, 7, 7, 7], device='cuda:1') | 0.652174
+BOOK 5 | tensor([ 4,  4,  4, 20], device='cuda:1') | 0.722222
+BOOK 6 | tensor([ 4,  4, 13,  4], device='cuda:1') | 0.444444
+BOOK 7 | tensor([ 4,  4,  4, 13], device='cuda:1') | 0.722222
+Epoch 18, Train Loss: 0.45401745, Acc: 0.257616, LR: 0.000017482461
+Epoch [17], Step [0], Loss: 0.0904 Acc: 0.089286
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([5, 4, 8, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([7, 6, 7, 6], device='cuda:1') | 0.714286
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 18, Val Loss: 0.69739476, Acc: 0.000818, LR: 0.000016608338
+Epoch [18], Step [0], LR: 0.000016, Loss: 0.4431 Acc: 0.498815
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.615385
+BOOK 1 | tensor([4, 4, 5, 4], device='cuda:1') | 0.300000
+BOOK 2 | tensor([5, 7, 5, 5], device='cuda:1') | 0.551020
+BOOK 3 | tensor([14, 16,  5, 14], device='cuda:1') | 0.475000
+BOOK 4 | tensor([7, 6, 7, 5], device='cuda:1') | 0.623188
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.555556
+BOOK 6 | tensor([13,  4, 13, 13], device='cuda:1') | 0.481481
+BOOK 7 | tensor([ 4, 11,  4,  4], device='cuda:1') | 0.388889
+Epoch 19, Train Loss: 0.44273729, Acc: 0.267188, LR: 0.000015777921
+Epoch [18], Step [0], Loss: 0.0856 Acc: 0.071429
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 8, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 7], device='cuda:1') | 0.571429
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 19, Val Loss: 0.69276180, Acc: 0.000812, LR: 0.000014989025
+Epoch [19], Step [0], LR: 0.000014, Loss: 0.4561 Acc: 0.659339
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([5, 4, 4, 5], device='cuda:1') | 0.794872
+BOOK 1 | tensor([ 4,  4, 14,  4], device='cuda:1') | 0.750000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.591837
+BOOK 3 | tensor([ 5, 14, 14, 14], device='cuda:1') | 0.700000
+BOOK 4 | tensor([6, 7, 7, 7], device='cuda:1') | 0.623188
+BOOK 5 | tensor([14,  4,  4,  4], device='cuda:1') | 0.555556
+BOOK 6 | tensor([ 4, 13, 13,  4], device='cuda:1') | 0.481481
+BOOK 7 | tensor([ 4,  4,  4, 11], device='cuda:1') | 0.777778
+Epoch 20, Train Loss: 0.43297013, Acc: 0.269624, LR: 0.000014239574
+Epoch [19], Step [0], Loss: 0.0896 Acc: 0.095238
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.761905
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 20, Val Loss: 0.68747292, Acc: 0.000837, LR: 0.000013527595
+Epoch [20], Step [0], LR: 0.000013, Loss: 0.4301 Acc: 0.425279
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 6, 5, 8], device='cuda:1') | 0.615385
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.100000
+BOOK 2 | tensor([5, 5, 5, 4], device='cuda:1') | 0.591837
+BOOK 3 | tensor([ 4, 14,  4, 14], device='cuda:1') | 0.500000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.724638
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.444444
+BOOK 6 | tensor([7, 4, 4, 4], device='cuda:1') | 0.259259
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.166667
+Epoch 21, Train Loss: 0.42373767, Acc: 0.279363, LR: 0.000012851216
+Epoch [20], Step [0], Loss: 0.0629 Acc: 0.083333
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 7], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 7, 6, 6], device='cuda:1') | 0.666667
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 21, Val Loss: 0.68503721, Acc: 0.000835, LR: 0.000012208655
+Epoch [21], Step [0], LR: 0.000012, Loss: 0.4510 Acc: 0.706146
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([6, 4, 4, 5], device='cuda:1') | 0.871795
+BOOK 1 | tensor([ 5, 14,  4,  4], device='cuda:1') | 0.650000
+BOOK 2 | tensor([7, 7, 5, 5], device='cuda:1') | 0.653061
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.550000
+BOOK 4 | tensor([7, 6, 7, 7], device='cuda:1') | 0.739130
+BOOK 5 | tensor([ 4,  4,  4, 20], device='cuda:1') | 0.666667
+BOOK 6 | tensor([ 4, 13,  4, 13], device='cuda:1') | 0.629630
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.888889
+Epoch 22, Train Loss: 0.41375004, Acc: 0.283197, LR: 0.000011598222
+Epoch [21], Step [0], Loss: 0.0760 Acc: 0.083333
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 8, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.666667
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 22, Val Loss: 0.68815469, Acc: 0.000824, LR: 0.000011018311
+Epoch [22], Step [0], LR: 0.000010, Loss: 0.3985 Acc: 0.531245
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([8, 4, 5, 4], device='cuda:1') | 0.564103
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.450000
+BOOK 2 | tensor([5, 7, 5, 5], device='cuda:1') | 0.755102
+BOOK 3 | tensor([ 4,  4, 14, 14], device='cuda:1') | 0.550000
+BOOK 4 | tensor([6, 7, 6, 6], device='cuda:1') | 0.782609
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.333333
+BOOK 6 | tensor([4, 4, 7, 4], device='cuda:1') | 0.370370
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.444444
+Epoch 23, Train Loss: 0.40600827, Acc: 0.291127, LR: 0.000010467395
+Epoch [22], Step [0], Loss: 0.0656 Acc: 0.083333
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([7, 6, 6, 6], device='cuda:1') | 0.666667
+BOOK 5 | tensor([20,  4,  4,  4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 23, Val Loss: 0.68292008, Acc: 0.000911, LR: 0.000009944026
+Epoch [23], Step [0], LR: 0.000009, Loss: 0.3809 Acc: 0.701111
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.743590
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.850000
+BOOK 2 | tensor([5, 5, 5, 7], device='cuda:1') | 0.632653
+BOOK 3 | tensor([14, 14, 14,  5], device='cuda:1') | 0.625000
+BOOK 4 | tensor([6, 7, 7, 7], device='cuda:1') | 0.739130
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+BOOK 6 | tensor([5, 4, 4, 4], device='cuda:1') | 0.518519
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.888889
+Epoch 24, Train Loss: 0.39827570, Acc: 0.295381, LR: 0.000009446824
+Epoch [23], Step [0], Loss: 0.0672 Acc: 0.077381
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 4, 6, 6], device='cuda:1') | 0.619048
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 24, Val Loss: 0.69158675, Acc: 0.000856, LR: 0.000008974483
+Epoch [24], Step [0], LR: 0.000009, Loss: 0.3676 Acc: 0.557232
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.717949
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.400000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.591837
+BOOK 3 | tensor([14,  4, 14, 14], device='cuda:1') | 0.550000
+BOOK 4 | tensor([7, 6, 7, 7], device='cuda:1') | 0.753623
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.500000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.333333
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+Epoch 25, Train Loss: 0.39140860, Acc: 0.300628, LR: 0.000008525759
+Epoch [24], Step [0], Loss: 0.0602 Acc: 0.107143
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([48,  6,  6,  6], device='cuda:1') | 0.857143
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([18,  4,  4,  4], device='cuda:1') | 0.000000
+Epoch 25, Val Loss: 0.68750065, Acc: 0.000898, LR: 0.000008099471
+Epoch [25], Step [0], LR: 0.000008, Loss: 0.3434 Acc: 0.762335
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.794872
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.800000
+BOOK 2 | tensor([5, 7, 5, 5], device='cuda:1') | 0.775510
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.775000
+BOOK 4 | tensor([6, 7, 7, 7], device='cuda:1') | 0.768116
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.833333
+BOOK 6 | tensor([ 4, 13,  4, 13], device='cuda:1') | 0.629630
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.722222
+Epoch 26, Train Loss: 0.38533252, Acc: 0.306372, LR: 0.000007694498
+Epoch [25], Step [0], Loss: 0.0529 Acc: 0.077381
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.619048
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 26, Val Loss: 0.69079941, Acc: 0.000891, LR: 0.000007309773
+Epoch [26], Step [0], LR: 0.000007, Loss: 0.3374 Acc: 0.599028
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([6, 4, 4, 5], device='cuda:1') | 0.769231
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.500000
+BOOK 2 | tensor([5, 8, 4, 7], device='cuda:1') | 0.612245
+BOOK 3 | tensor([ 4, 14, 14,  4], device='cuda:1') | 0.575000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.724638
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.444444
+BOOK 6 | tensor([ 4, 13,  4,  4], device='cuda:1') | 0.666667
+BOOK 7 | tensor([11,  4,  4,  4], device='cuda:1') | 0.500000
+Epoch 27, Train Loss: 0.38046651, Acc: 0.307360, LR: 0.000006944284
+Epoch [26], Step [0], Loss: 0.0530 Acc: 0.089286
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([4, 6, 7, 6], device='cuda:1') | 0.714286
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 27, Val Loss: 0.68850022, Acc: 0.000929, LR: 0.000006597070
+Epoch [27], Step [0], LR: 0.000006, Loss: 0.3268 Acc: 0.709170
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 6, 4, 6], device='cuda:1') | 0.820513
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.750000
+BOOK 2 | tensor([7, 5, 5, 5], device='cuda:1') | 0.734694
+BOOK 3 | tensor([11, 14, 14, 14], device='cuda:1') | 0.625000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.724638
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.740741
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+Epoch 28, Train Loss: 0.37560325, Acc: 0.311101, LR: 0.000006267216
+Epoch [27], Step [0], Loss: 0.0512 Acc: 0.107143
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([48,  6,  6,  6], device='cuda:1') | 0.857143
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 28, Val Loss: 0.69321316, Acc: 0.000933, LR: 0.000005953856
+Epoch [28], Step [0], LR: 0.000006, Loss: 0.3250 Acc: 0.636035
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.692308
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.650000
+BOOK 2 | tensor([5, 5, 8, 5], device='cuda:1') | 0.714286
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.675000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.782609
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.444444
+BOOK 6 | tensor([ 4,  4,  4, 13], device='cuda:1') | 0.518519
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+Epoch 29, Train Loss: 0.37055383, Acc: 0.318392, LR: 0.000005656163
+Epoch [28], Step [0], Loss: 0.0593 Acc: 0.113095
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.904762
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 29, Val Loss: 0.69349818, Acc: 0.000970, LR: 0.000005373355
+Epoch [29], Step [0], LR: 0.000005, Loss: 0.3113 Acc: 0.744065
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.769231
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.900000
+BOOK 2 | tensor([5, 7, 5, 5], device='cuda:1') | 0.673469
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.700000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.724638
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.777778
+BOOK 6 | tensor([ 4, 13,  4,  4], device='cuda:1') | 0.629630
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.777778
+Epoch 30, Train Loss: 0.36654548, Acc: 0.319066, LR: 0.000005104687
+Epoch [29], Step [0], Loss: 0.0535 Acc: 0.089286
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.714286
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([ 4,  4, 11,  4], device='cuda:1') | 0.000000
+Epoch 30, Val Loss: 0.69592830, Acc: 0.000928, LR: 0.000004849453
+Epoch [30], Step [0], LR: 0.000005, Loss: 0.2968 Acc: 0.704847
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.794872
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.650000
+BOOK 2 | tensor([5, 5, 4, 5], device='cuda:1') | 0.795918
+BOOK 3 | tensor([14, 14,  5, 14], device='cuda:1') | 0.650000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.840580
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.629630
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+Epoch 31, Train Loss: 0.36270143, Acc: 0.322406, LR: 0.000004606980
+Epoch [30], Step [0], Loss: 0.0551 Acc: 0.107143
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.857143
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 31, Val Loss: 0.69682484, Acc: 0.000960, LR: 0.000004376631
+Epoch [31], Step [0], LR: 0.000004, Loss: 0.3070 Acc: 0.719826
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.717949
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.800000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.673469
+BOOK 3 | tensor([14, 14,  5, 14], device='cuda:1') | 0.725000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.768116
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.833333
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.518519
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.722222
+Epoch 32, Train Loss: 0.35974474, Acc: 0.327162, LR: 0.000004157799
+Epoch [31], Step [0], Loss: 0.0539 Acc: 0.095238
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.761905
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 32, Val Loss: 0.69743125, Acc: 0.000963, LR: 0.000003949909
+Epoch [32], Step [0], LR: 0.000004, Loss: 0.2792 Acc: 0.713096
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.717949
+BOOK 1 | tensor([20,  4,  4,  5], device='cuda:1') | 0.600000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.775510
+BOOK 3 | tensor([14,  4, 14, 14], device='cuda:1') | 0.625000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.782609
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+BOOK 6 | tensor([ 4, 13, 13,  4], device='cuda:1') | 0.703704
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.888889
+Epoch 33, Train Loss: 0.35649409, Acc: 0.328290, LR: 0.000003752414
+Epoch [32], Step [0], Loss: 0.0562 Acc: 0.113095
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 5, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 4, 6, 6], device='cuda:1') | 0.904762
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 33, Val Loss: 0.69752913, Acc: 0.000991, LR: 0.000003564793
+Model saved: Epoch 33 with Val Loss: 0.697529
+Epoch [33], Step [0], LR: 0.000003, Loss: 0.2758 Acc: 0.710273
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 8, 4, 4], device='cuda:1') | 0.769231
+BOOK 1 | tensor([ 4, 14,  4,  4], device='cuda:1') | 0.650000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.714286
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.725000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.768116
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.722222
+BOOK 6 | tensor([13,  4,  4,  4], device='cuda:1') | 0.666667
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+Epoch 34, Train Loss: 0.35373069, Acc: 0.330662, LR: 0.000003386554
+Epoch [33], Step [0], Loss: 0.0537 Acc: 0.089286
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([11,  4, 11, 11], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 4], device='cuda:1') | 0.714286
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 34, Val Loss: 0.69599824, Acc: 0.001003, LR: 0.000003217226
+Model saved: Epoch 34 with Val Loss: 0.695998
+Epoch [34], Step [0], LR: 0.000003, Loss: 0.2793 Acc: 0.726124
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.897436
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.700000
+BOOK 2 | tensor([4, 5, 5, 5], device='cuda:1') | 0.653061
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.825000
+BOOK 4 | tensor([7, 7, 6, 7], device='cuda:1') | 0.826087
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.722222
+BOOK 6 | tensor([ 5, 13,  4,  4], device='cuda:1') | 0.518519
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+Epoch 35, Train Loss: 0.35100029, Acc: 0.332823, LR: 0.000003056365
+Epoch [34], Step [0], Loss: 0.0532 Acc: 0.107143
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.857143
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 35, Val Loss: 0.69729328, Acc: 0.000998, LR: 0.000002903546
+Epoch [35], Step [0], LR: 0.000003, Loss: 0.2822 Acc: 0.657179
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.717949
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.650000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.714286
+BOOK 3 | tensor([ 4, 14, 16, 14], device='cuda:1') | 0.800000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.782609
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.388889
+BOOK 6 | tensor([4, 5, 4, 4], device='cuda:1') | 0.592593
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+Epoch 36, Train Loss: 0.34932915, Acc: 0.331158, LR: 0.000002758369
+Epoch [35], Step [0], Loss: 0.0553 Acc: 0.065476
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 4, 6, 6], device='cuda:1') | 0.523810
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 36, Val Loss: 0.69776755, Acc: 0.001006, LR: 0.000002620451
+Model saved: Epoch 36 with Val Loss: 0.697768
+Epoch [36], Step [0], LR: 0.000002, Loss: 0.2619 Acc: 0.680814
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.769231
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.600000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.795918
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.725000
+BOOK 4 | tensor([7, 7, 7, 6], device='cuda:1') | 0.797101
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+BOOK 6 | tensor([4, 4, 4, 5], device='cuda:1') | 0.592593
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.500000
+Epoch 37, Train Loss: 0.34678777, Acc: 0.333129, LR: 0.000002489428
+Epoch [36], Step [0], Loss: 0.0412 Acc: 0.089286
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([ 6,  4,  6, 48], device='cuda:1') | 0.714286
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 37, Val Loss: 0.69713881, Acc: 0.001001, LR: 0.000002364957
+Epoch [37], Step [0], LR: 0.000002, Loss: 0.2664 Acc: 0.749119
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.846154
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.600000
+BOOK 2 | tensor([4, 5, 5, 5], device='cuda:1') | 0.857143
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.775000
+BOOK 4 | tensor([6, 7, 7, 6], device='cuda:1') | 0.840580
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.740741
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+Epoch 38, Train Loss: 0.34538975, Acc: 0.334794, LR: 0.000002246709
+Epoch [37], Step [0], Loss: 0.0408 Acc: 0.089286
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 4], device='cuda:1') | 0.714286
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 38, Val Loss: 0.69732964, Acc: 0.001018, LR: 0.000002134373
+Model saved: Epoch 38 with Val Loss: 0.697330
+Epoch [38], Step [0], LR: 0.000002, Loss: 0.2612 Acc: 0.751665
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([5, 4, 4, 4], device='cuda:1') | 0.897436
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.800000
+BOOK 2 | tensor([5, 5, 5, 4], device='cuda:1') | 0.816327
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.725000
+BOOK 4 | tensor([7, 7, 6, 6], device='cuda:1') | 0.811594
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.722222
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.740741
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.500000
+Epoch 39, Train Loss: 0.34369295, Acc: 0.339780, LR: 0.000002027655
+Epoch [38], Step [0], Loss: 0.0426 Acc: 0.089286
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([4, 6, 6, 6], device='cuda:1') | 0.714286
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 39, Val Loss: 0.69767750, Acc: 0.000994, LR: 0.000001926272
+Epoch [39], Step [0], LR: 0.000002, Loss: 0.2568 Acc: 0.725997
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([5, 4, 4, 4], device='cuda:1') | 0.820513
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.750000
+BOOK 2 | tensor([5, 5, 4, 4], device='cuda:1') | 0.775510
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.875000
+BOOK 4 | tensor([6, 6, 7, 7], device='cuda:1') | 0.753623
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.500000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+Epoch 40, Train Loss: 0.34213584, Acc: 0.340495, LR: 0.000001829958
+Epoch [39], Step [0], Loss: 0.0364 Acc: 0.113095
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.904762
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 40, Val Loss: 0.69856962, Acc: 0.000995, LR: 0.000001738460
+Epoch [40], Step [0], LR: 0.000002, Loss: 0.2520 Acc: 0.668812
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.794872
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.650000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.775510
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.800000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.811594
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.500000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.407407
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+Epoch 41, Train Loss: 0.34093486, Acc: 0.337845, LR: 0.000001651537
+Epoch [40], Step [0], Loss: 0.0310 Acc: 0.101190
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.809524
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 41, Val Loss: 0.69796048, Acc: 0.001010, LR: 0.000001568961
+Epoch [41], Step [0], LR: 0.000001, Loss: 0.2556 Acc: 0.776862
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.846154
+BOOK 1 | tensor([5, 4, 4, 4], device='cuda:1') | 0.800000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.816327
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.750000
+BOOK 4 | tensor([7, 7, 6, 7], device='cuda:1') | 0.724638
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.777778
+BOOK 6 | tensor([13,  4,  4,  4], device='cuda:1') | 0.666667
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.833333
+Epoch 42, Train Loss: 0.33983097, Acc: 0.340901, LR: 0.000001490513
+Epoch [41], Step [0], Loss: 0.0260 Acc: 0.107143
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([ 4,  6, 55,  4], device='cuda:1') | 0.857143
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 42, Val Loss: 0.69866408, Acc: 0.001012, LR: 0.000001415987
+Epoch [42], Step [0], LR: 0.000001, Loss: 0.2577 Acc: 0.697601
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([5, 4, 6, 5], device='cuda:1') | 0.769231
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.600000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.836735
+BOOK 3 | tensor([14,  4, 14, 14], device='cuda:1') | 0.775000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.840580
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.481481
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+Epoch 43, Train Loss: 0.33789010, Acc: 0.342208, LR: 0.000001345188
+Epoch [42], Step [0], Loss: 0.0308 Acc: 0.119048
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 4, 6, 6], device='cuda:1') | 0.952381
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 43, Val Loss: 0.69893293, Acc: 0.000998, LR: 0.000001277928
+Epoch [43], Step [0], LR: 0.000001, Loss: 0.2575 Acc: 0.718349
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.820513
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.650000
+BOOK 2 | tensor([5, 5, 4, 5], device='cuda:1') | 0.734694
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.825000
+BOOK 4 | tensor([7, 6, 7, 7], device='cuda:1') | 0.753623
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.777778
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.629630
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.555556
+Epoch 44, Train Loss: 0.33759445, Acc: 0.341837, LR: 0.000001214032
+Epoch [43], Step [0], Loss: 0.0305 Acc: 0.095238
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 4, 4], device='cuda:1') | 0.761905
+BOOK 5 | tensor([20,  4,  4,  4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 44, Val Loss: 0.69997151, Acc: 0.001001, LR: 0.000001153330
+Epoch [44], Step [0], LR: 0.000001, Loss: 0.2523 Acc: 0.697919
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.846154
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.600000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.653061
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.650000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.797101
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.592593
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.777778
+Epoch 45, Train Loss: 0.33638540, Acc: 0.342247, LR: 0.000001095664
+Epoch [44], Step [0], Loss: 0.0280 Acc: 0.113095
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.904762
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 45, Val Loss: 0.69920863, Acc: 0.000999, LR: 0.000001040880
+Epoch [45], Step [0], LR: 0.000001, Loss: 0.2586 Acc: 0.723463
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.769231
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.700000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.714286
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.700000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.811594
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.722222
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.703704
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+Epoch 46, Train Loss: 0.33532003, Acc: 0.344945, LR: 0.000000988836
+Epoch [45], Step [0], Loss: 0.0218 Acc: 0.119048
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.952381
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 46, Val Loss: 0.70074253, Acc: 0.000995, LR: 0.000000939395
+Epoch [46], Step [0], LR: 0.000001, Loss: 0.2428 Acc: 0.696880
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 5, 5, 4], device='cuda:1') | 0.820513
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.650000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.857143
+BOOK 3 | tensor([14,  5, 14,  5], device='cuda:1') | 0.625000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.826087
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.629630
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.500000
+Epoch 47, Train Loss: 0.33477875, Acc: 0.343083, LR: 0.000000892425
+Epoch [46], Step [0], Loss: 0.0193 Acc: 0.083333
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([4, 4, 6, 6], device='cuda:1') | 0.666667
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 47, Val Loss: 0.69950427, Acc: 0.000993, LR: 0.000000847804
+Epoch [47], Step [0], LR: 0.000001, Loss: 0.2469 Acc: 0.719154
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 6], device='cuda:1') | 0.794872
+BOOK 1 | tensor([20,  4,  4,  5], device='cuda:1') | 0.550000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.755102
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.675000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.811594
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.833333
+BOOK 6 | tensor([4, 5, 4, 4], device='cuda:1') | 0.555556
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.777778
+Epoch 48, Train Loss: 0.33427165, Acc: 0.341798, LR: 0.000000805413
+Epoch [47], Step [0], Loss: 0.0233 Acc: 0.119048
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.952381
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 48, Val Loss: 0.69989396, Acc: 0.000991, LR: 0.000000765143
+Epoch [48], Step [0], LR: 0.000001, Loss: 0.2497 Acc: 0.724190
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.846154
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.600000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.816327
+BOOK 3 | tensor([ 4, 14, 14, 14], device='cuda:1') | 0.775000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.811594
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.722222
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.555556
+Epoch 49, Train Loss: 0.33376768, Acc: 0.346628, LR: 0.000000726886
+Epoch [48], Step [0], Loss: 0.0238 Acc: 0.119048
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.952381
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 49, Val Loss: 0.70002087, Acc: 0.001002, LR: 0.000000690541
+Epoch [49], Step [0], LR: 0.000001, Loss: 0.2466 Acc: 0.757207
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([5, 4, 4, 4], device='cuda:1') | 0.871795
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.850000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.755102
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.650000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.782609
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.722222
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.592593
+BOOK 7 | tensor([ 4,  4, 13,  4], device='cuda:1') | 0.833333
+Epoch 50, Train Loss: 0.33331035, Acc: 0.344923, LR: 0.000000656014
+Epoch [49], Step [0], Loss: 0.0239 Acc: 0.119048
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.952381
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 50, Val Loss: 0.70046684, Acc: 0.001003, LR: 0.000000623214
+Epoch [50], Step [0], LR: 0.000001, Loss: 0.2507 Acc: 0.729616
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.794872
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.700000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.795918
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.650000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.840580
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.722222
+BOOK 6 | tensor([ 4,  4, 13,  4], device='cuda:1') | 0.555556
+BOOK 7 | tensor([ 4,  4, 11, 11], device='cuda:1') | 0.777778
+Epoch 51, Train Loss: 0.33230383, Acc: 0.344885, LR: 0.000000592053
+Epoch [50], Step [0], Loss: 0.0254 Acc: 0.107143
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.857143
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 51, Val Loss: 0.70053959, Acc: 0.000995, LR: 0.000000562450
+Epoch [51], Step [0], LR: 0.000001, Loss: 0.2537 Acc: 0.725416
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 5], device='cuda:1') | 0.871795
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.850000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.591837
+BOOK 3 | tensor([14,  5, 14, 14], device='cuda:1') | 0.600000
+BOOK 4 | tensor([6, 7, 7, 7], device='cuda:1') | 0.797101
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.592593
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.833333
+Epoch 52, Train Loss: 0.33176513, Acc: 0.347439, LR: 0.000000534328
+Epoch [51], Step [0], Loss: 0.0227 Acc: 0.113095
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([ 4,  4,  4, 17], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 4, 6, 6], device='cuda:1') | 0.904762
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 52, Val Loss: 0.70061410, Acc: 0.000999, LR: 0.000000507611
+Epoch [52], Step [0], LR: 0.000000, Loss: 0.2465 Acc: 0.746460
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.794872
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.600000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.714286
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.625000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.811594
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.833333
+BOOK 6 | tensor([13, 13,  4,  4], device='cuda:1') | 0.703704
+BOOK 7 | tensor([ 4, 13,  4,  4], device='cuda:1') | 0.888889
+Epoch 53, Train Loss: 0.33150438, Acc: 0.344241, LR: 0.000000482231
+Epoch [52], Step [0], Loss: 0.0215 Acc: 0.095238
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 4], device='cuda:1') | 0.761905
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 53, Val Loss: 0.69992053, Acc: 0.001003, LR: 0.000000458119
+Epoch [53], Step [0], LR: 0.000000, Loss: 0.2408 Acc: 0.731507
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.846154
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.700000
+BOOK 2 | tensor([7, 5, 5, 5], device='cuda:1') | 0.795918
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.700000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.884058
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.722222
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.592593
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+Epoch 54, Train Loss: 0.33136900, Acc: 0.346554, LR: 0.000000435213
+Epoch [53], Step [0], Loss: 0.0227 Acc: 0.113095
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.904762
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 54, Val Loss: 0.70104901, Acc: 0.000996, LR: 0.000000413453
+Epoch [54], Step [0], LR: 0.000000, Loss: 0.2467 Acc: 0.759516
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.846154
+BOOK 1 | tensor([ 4,  4,  4, 14], device='cuda:1') | 0.800000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.795918
+BOOK 3 | tensor([14, 14, 16,  4], device='cuda:1') | 0.750000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.884058
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.722222
+Epoch 55, Train Loss: 0.33112823, Acc: 0.346511, LR: 0.000000392780
+Epoch [54], Step [0], Loss: 0.0223 Acc: 0.113095
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([4, 6, 6, 6], device='cuda:1') | 0.904762
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 55, Val Loss: 0.69946395, Acc: 0.001006, LR: 0.000000373141
+Epoch [55], Step [0], LR: 0.000000, Loss: 0.2314 Acc: 0.712522
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.846154
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.650000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.714286
+BOOK 3 | tensor([14, 14, 14,  4], device='cuda:1') | 0.625000
+BOOK 4 | tensor([6, 7, 6, 7], device='cuda:1') | 0.753623
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.833333
+BOOK 6 | tensor([4, 7, 4, 4], device='cuda:1') | 0.666667
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+Epoch 56, Train Loss: 0.33043171, Acc: 0.347077, LR: 0.000000354484
+Epoch [55], Step [0], Loss: 0.0213 Acc: 0.107143
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.857143
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 56, Val Loss: 0.70065934, Acc: 0.000992, LR: 0.000000336760
+Epoch [56], Step [0], LR: 0.000000, Loss: 0.2578 Acc: 0.682117
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.820513
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.650000
+BOOK 2 | tensor([5, 5, 7, 5], device='cuda:1') | 0.755102
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.650000
+BOOK 4 | tensor([7, 6, 7, 7], device='cuda:1') | 0.840580
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.611111
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.629630
+BOOK 7 | tensor([ 4,  4, 19,  4], device='cuda:1') | 0.500000
+Epoch 57, Train Loss: 0.33087144, Acc: 0.344899, LR: 0.000000319922
+Epoch [56], Step [0], Loss: 0.0181 Acc: 0.113095
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.904762
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 57, Val Loss: 0.69986874, Acc: 0.000999, LR: 0.000000303926
+Epoch [57], Step [0], LR: 0.000000, Loss: 0.2430 Acc: 0.725299
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 5], device='cuda:1') | 0.743590
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.700000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.816327
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.875000
+BOOK 4 | tensor([6, 7, 7, 7], device='cuda:1') | 0.797101
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.592593
+BOOK 7 | tensor([ 4, 11,  4,  4], device='cuda:1') | 0.611111
+Epoch 58, Train Loss: 0.32997273, Acc: 0.345384, LR: 0.000000288729
+Epoch [57], Step [0], Loss: 0.0194 Acc: 0.113095
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 4, 6, 6], device='cuda:1') | 0.904762
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 58, Val Loss: 0.70009446, Acc: 0.001001, LR: 0.000000274293
+Epoch [58], Step [0], LR: 0.000000, Loss: 0.2470 Acc: 0.739836
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 5, 4], device='cuda:1') | 0.820513
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.650000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.775510
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.725000
+BOOK 4 | tensor([6, 7, 7, 7], device='cuda:1') | 0.855072
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.722222
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.703704
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+Epoch 59, Train Loss: 0.33014151, Acc: 0.346164, LR: 0.000000260578
+Epoch [58], Step [0], Loss: 0.0205 Acc: 0.113095
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.904762
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 59, Val Loss: 0.69947927, Acc: 0.001007, LR: 0.000000247549
+Epoch [59], Step [0], LR: 0.000000, Loss: 0.2487 Acc: 0.737019
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([5, 4, 4, 4], device='cuda:1') | 0.846154
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.750000
+BOOK 2 | tensor([5, 5, 7, 5], device='cuda:1') | 0.714286
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.725000
+BOOK 4 | tensor([7, 7, 6, 6], device='cuda:1') | 0.768116
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+BOOK 6 | tensor([4, 4, 5, 4], device='cuda:1') | 0.592593
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.833333
+Epoch 60, Train Loss: 0.32956568, Acc: 0.348331, LR: 0.000000235172
+Epoch [59], Step [0], Loss: 0.0201 Acc: 0.107143
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 4], device='cuda:1') | 0.857143
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 60, Val Loss: 0.70067983, Acc: 0.000996, LR: 0.000000223413
+Epoch [60], Step [0], LR: 0.000000, Loss: 0.2434 Acc: 0.731845
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.794872
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.650000
+BOOK 2 | tensor([7, 5, 5, 5], device='cuda:1') | 0.795918
+BOOK 3 | tensor([ 4, 14, 14, 14], device='cuda:1') | 0.775000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.913043
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.481481
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.777778
+Epoch 61, Train Loss: 0.32953061, Acc: 0.347099, LR: 0.000000212243
+Epoch [60], Step [0], Loss: 0.0210 Acc: 0.107143
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 6, 6], device='cuda:1') | 0.857143
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([ 4,  4, 14,  4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 61, Val Loss: 0.69936008, Acc: 0.001013, LR: 0.000000201631
+Epoch [61], Step [0], LR: 0.000000, Loss: 0.2474 Acc: 0.742845
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.846154
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.700000
+BOOK 2 | tensor([5, 5, 5, 4], device='cuda:1') | 0.755102
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.875000
+BOOK 4 | tensor([7, 7, 7, 6], device='cuda:1') | 0.840580
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.722222
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.703704
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.500000
+Epoch 62, Train Loss: 0.32931435, Acc: 0.346996, LR: 0.000000191549
+Epoch [61], Step [0], Loss: 0.0213 Acc: 0.101190
+Target : 
+ tensor([[4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4],
+        [4, 4, 4, 4, 6, 4, 4, 4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 2 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 3 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 4 | tensor([6, 6, 4, 6], device='cuda:1') | 0.809524
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 6 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.000000
+Epoch 62, Val Loss: 0.69987364, Acc: 0.001004, LR: 0.000000181972
+Epoch [62], Step [0], LR: 0.000000, Loss: 0.2379 Acc: 0.704108
+Target : 
+ tensor([[ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4],
+        [ 4,  4,  5, 14,  7,  4,  4,  4]], device='cuda:1')
+BOOK 0 | tensor([4, 4, 6, 4], device='cuda:1') | 0.794872
+BOOK 1 | tensor([4, 4, 4, 4], device='cuda:1') | 0.850000
+BOOK 2 | tensor([5, 5, 5, 5], device='cuda:1') | 0.755102
+BOOK 3 | tensor([14, 14, 14, 14], device='cuda:1') | 0.625000
+BOOK 4 | tensor([7, 7, 7, 7], device='cuda:1') | 0.811594
+BOOK 5 | tensor([4, 4, 4, 4], device='cuda:1') | 0.500000
+BOOK 6 | tensor([4, 5, 4, 5], device='cuda:1') | 0.629630
+BOOK 7 | tensor([4, 4, 4, 4], device='cuda:1') | 0.666667
