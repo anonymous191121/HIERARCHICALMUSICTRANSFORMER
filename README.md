@@ -13,3 +13,54 @@
 
 4. python -m src.train.chord_train
 (Train the model)
+
+5. If you want to train particular music for particular attribute (ex. I want to train chord progress with brahms style and train onset style for dvorak), that is also possible for train each model for each txt dataset.
+
+## DEMO Samples
+
+### From Scratch Generation
+
+Just start ONLY "BOS" Token for Chord Decocer
+
+Witch means "BOS" Token make entire music
+
+
+1. 
+
+<video src="demo/scratch/1.wav" controls></video>
+
+2. 
+
+<video src="demo/scratch/2.wav" controls></video>
+
+### Prompt Generation
+
+Below samples are from 8-measure prompting for all attribute (Chord, Inst, Onset, Duration, Pitch)
+
+Given our model’s architecture, it’s of course possible to pick and prompt only the desired elements for each attribute.
+
+1. 
+
+<video src="demo/prompt/1.wav" controls></video>
+
+
+2. 
+
+<video src="demo/prompt/2.wav" controls></video>
+
+3. 
+
+<video src="demo/prompt/3.wav" controls></video>
+
+4. 
+
+<video src="demo/prompt/4.wav" controls></video>
+
+### Fine Tuning for particular composer attribute
+
+comming soon...
+
+
+### More sample in .io page
+
+comming soon...
