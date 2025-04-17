@@ -27,11 +27,15 @@ Witch means "BOS" Token make entire music
 
 1. 
 
-<video src="demo/scratch/1.mp4" controls></video>
+<audio controls>
+  <source src="./demo/scratch/1.wav" type="audio/mpeg">
+</audio>
 
 2. 
 
-<video src="demo/scratch/2.mp4" controls></video>
+<audio controls>
+  <source src="./demo/scratch/2.wav" type="audio/mpeg">
+</audio>
 
 ### Prompt Generation
 
@@ -41,20 +45,28 @@ Given our model’s architecture, it’s of course possible to pick and prompt o
 
 1. 
 
-<video src="demo/prompt/1.mp4" controls></video>
+<audio controls>
+  <source src="./demo/prompt/1.wav" type="audio/mpeg">
+</audio>
 
 
 2. 
 
-<video src="demo/prompt/2.mp4" controls></video>
+<audio controls>
+  <source src="./demo/prompt/2.wav" type="audio/mpeg">
+</audio>
 
 3. 
 
-<video src="demo/prompt/3.mp4" controls></video>
+<audio controls>
+  <source src="./demo/prompt/3.wav" type="audio/mpeg">
+</audio>
 
 4. 
 
-<video src="demo/prompt/4.mp4" controls></video>
+<audio controls>
+  <source src="./demo/prompt/4.wav" type="audio/mpeg">
+</audio>
 
 ### Fine Tuning for particular composer attribute
 
