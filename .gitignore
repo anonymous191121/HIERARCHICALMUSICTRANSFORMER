@@ -5,6 +5,11 @@
 *.pkl
 */.pkl/*
 
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+
 # Created by https://www.toptal.com/developers/gitignore/api/macos,python,jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,python,jupyternotebooks
 
