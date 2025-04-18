@@ -34,17 +34,24 @@ Witch means "BOS" Token make entire music
 1. 
 
 <audio controls>
+<<<<<<< HEAD
   <source src="demo/scratch/1.wav" type="audio/mpeg">
 </audio>
 
 <video controls src="demo/prompt/1.mp4"></video>
 
+=======
+  <source src="./demo/scratch/1.wav" type="audio/wav">
+</audio>
+
+>>>>>>> fda5128cef9ab10d0bba853533c84ac23b999403
 
 2. 
 
-<audio controls>
-  <source src="./demo/scratch/2.wav" type="audio/mpeg">
-</audio>
+<video controls>
+  <source src="./demo/scratch/2.wav" type="video/wav">
+</video>
+
 
 ### Prompt Generation
 
