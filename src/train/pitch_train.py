@@ -7,7 +7,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torch.optim import AdamW
 from torch.optim.lr_scheduler import LambdaLR
-from ..utils import noneAR_token_accuracy, pitch_prob, pit_loss
+from ..utils import noneAR_token_accuracy, pitch_prob
 from tqdm import tqdm
 from ..model.pitch_model import PitchEncoder
 from ..loader.pitch_loader import create_pitch
@@ -104,7 +104,6 @@ def run(model=model, train_loader=train_loader, val_loader=val_loader, epochs=nu
                 output_ids = torch.argmax(outputs, dim=2)
                 pitch_districution = pitch_prob(pitch, vocab_size)
 
-                # loss = pit_loss(outputs, pitch_districution, pitch)
                 loss = criterion(outputs.reshape(-1, vocab_size), pitch.reshape(-1))
                 
                 loss.backward()
@@ -169,7 +168,6 @@ def run(model=model, train_loader=train_loader, val_loader=val_loader, epochs=nu
                     output_ids = torch.argmax(outputs, dim=2)
                     pitch_districution = pitch_prob(pitch, vocab_size)
 
-                    # loss = pit_loss(outputs, pitch_districution, pitch)
                     loss = criterion(outputs.reshape(-1, vocab_size), pitch.reshape(-1))
 
                     total, correct, acc = noneAR_token_accuracy(output_ids, pitch)
