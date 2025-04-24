@@ -233,7 +233,7 @@ def run(model=model, train_loader=train_loader, val_loader=val_loader, epochs=nu
                 'optimizer_state_dict': optimizer.state_dict(),
                 'scheduler_state_dict': scheduler.state_dict(),  # if applicable
                 # add any other states you need
-            }, folder_path + f'/inst_{epoch+1}_{val_loss[-1]:.4f}_{total_val_book_acc[-1]:.4f}.pt')
+            }, folder_path + f'/onset_{epoch+1}_{val_loss[-1]:.4f}_{total_val_book_acc[-1]:.4f}.pt')
             print(f'Model saved: Epoch {epoch+1} with Val Loss: {val_loss[-1]:.6f}') 
             log += f'Model saved: Epoch {epoch+1} with Val Loss: {val_loss[-1]:.6f}\n'
             save_log(log)

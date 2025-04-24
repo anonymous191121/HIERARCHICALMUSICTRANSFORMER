@@ -64,8 +64,7 @@ class Pitch(Dataset):
                 chord_list.append(self.chord_proj[t1[1]])
         
         chord_tensor = chord_list
-        # target_chord_tensor = [0,14] + chord_tensor[:766] + [15,0]
-        target_chord_tensor = [0,2] + chord_tensor[:766] + [1,0]
+        target_chord_tensor = [0,14] + chord_tensor[:766] + [15,0]
         
         for idx in range(0, l_toks, ratio):
             t1, t2, t3, t4 = toks[idx : idx + 4]
